@@ -3,9 +3,9 @@
 
 using namespace std;
 DWORD processID;
-DWORD //değiştirmek-istediğiniz-şey(mermi can vb.)= 0x(adres numarası);
+DWORD //değiştirmek-istediğiniz-şey(mermi can vb.)= 0x(adres numarası);(örn: int ammo = 0x...);
 
-int neye-çevirmek-istediğiniz = çevirilecek-sayı//(örn: int ammo=200;)
+int neye-çevirmek-istediğiniz = çevirilecek-sayı;//(örn: int newammo=200;)
 int main() {
 	HWND hwnd = FindWindowA(NULL, "//oyunun adı");
 	
